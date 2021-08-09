@@ -5,4 +5,4 @@ RUN npm install -g npm@7.20.3
 COPY . /app
 EXPOSE 3000
 RUN npm run build
-CMD ["npm", "start"]
+#CMD ["npm", "start"]
